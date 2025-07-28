@@ -4,19 +4,132 @@
    padding: 0px;
 }
 
-body {
- background-color: lightcyan; 
+/*BACKGROUND COLOR*/
+html {
+ background-color: #85a26d; 
+   margin: 0;
+   padding: 0;
+}
+
+/*SECTION MAIN COLOR*/
+body{
+   background-color: #f2f5e0;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+/*MAIN*/
+main {
+   flex: 1;
+   padding: 3em 2em;
+   min-height: 68vh;
 }
 
 /* STYLE TEXT */
 
 h1 {
-  color: navy;
+  color: #8bb06d;
+   padding-left: 8%;
+   padding-top: 4%;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-weight: 800;
+   font-size: 2.4em;
 }
 
+h2 {
+   color: #8bb06d;
+   font-family: 'Sen', 'Arial', sans-serif;
+   padding-left: 10%;
+   padding-top: 5%;
+   font-weight: 800;
+   font-size: 2.4em;
+   text-align: left;
+   padding-right: 50%;
+}
+
+.letter-blue {
+   color: #72b7dd;
+   text-decoration-line: underline;
+}
+
+p1 {
+   color: #243522;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-size: 1.1em;
+   padding-left: 8em;
+   padding-right: 40em;
+   padding-top: 2%;
+   text-align: left;
+   font-weight: 550;
+   display: block;
+   line-height: 2em;
+}
 /* STYLE IMAGES */
+img {
+   position: absolute;
+   top:40%;
+   right:5;
+   transform: translateY(-45%);
+   width: 50%;
+}
 
 /* STYLE NAV BAR */
+nav {
+   background-color: #85a26d;
+   padding: 0.5em 1em;
+   margin-top:0;
+}
+
+.nav-container {
+   display: flex;
+   align-items: right;
+   justify-content: right;
+   position: relative;
+}
+
+.nav-logo {
+   height: 3.7em;
+   width: auto;
+   position: absolute;
+   left: 10em;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+ul{
+   list-style-type: none;
+   overflow: hidden;
+   text-align: center;
+   font-size: 1em;
+   font-weight: bold;
+   font-family: 'Sen', 'Arial', sans-serif;
+   margin:0;
+   padding:0;
+}
+
+li {
+   display: inline;
+}
+
+li a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.2em;
+   padding: 0.875em;
+   margin: 0 1.5em;
+   font-family: 'Sen', 'Arial', sans-serif;
+   display: inline-block;
+   border: 2px solid transparent;
+   border-radius: 0.6em;
+   transition: all 0.5s ease-in-out;
+}
+
+nav li a: hover {
+   background-color: #a8c591;
+   border: 2px solid #a8c591;
+   color: #667f53;
+}
 
 /* STYLE BUTTONS */
 
