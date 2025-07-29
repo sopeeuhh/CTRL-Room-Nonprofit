@@ -30,7 +30,7 @@ main {
 
 h1 {
   color: #8bb06d;
-   padding-left: 8%;
+   padding-left: 6%;
    padding-top: 4%;
    font-family: 'Sen', 'Arial', sans-serif;
    font-weight: 800;
@@ -88,7 +88,7 @@ p1 {
    color: #243522;
    font-family: 'Sen', 'Arial', sans-serif;
    font-size: 1.1em;
-   padding-left: 8em;
+   padding-left: 6em;
    padding-right: 40em;
    padding-top: 2%;
    text-align: left;
@@ -100,9 +100,9 @@ p1 {
 img {
    position: absolute;
    top:40%;
-   right:5;
+   right:6em;
    transform: translateY(-45%);
-   width: 50%;
+   width: 37%;
 }
 
 /* STYLE NAV BAR */
@@ -184,7 +184,7 @@ nav li a[href*= "donations"]:hover {
 
 /*VOLUNTEER TODAY BUTTON*/ 
 .cta-link {
-   padding-left: 8.4em;
+   padding-left: 6%;
    padding-top: 2em;
 }
 
@@ -263,6 +263,112 @@ footer {
 .footer-bottom p {
    margin: 0;
    font-size: 0.9em;
+}
+
+/* WE NEED TO MAKE A DIFFERENCE SECTION !!FRONT/HOME PAGE!! */
+.impact-showcase {
+   margin-top: 1.5em;
+   margin-bottom: -1em;
+   padding: 0 5%;
+   text-align: center;
+}
+.impact-showcase h2 {
+   text-align: center;
+   margin-bottom: 3em;
+   padding-left: 0;
+   padding-right: 0;
+}
+.impact-stats {
+   display: flex;
+   justify-content: center;
+   gap: 3em;
+   max-width: 1200px;
+   background-color: rgba(114, 183, 221, 0.1);
+   padding: 3em;
+   border-radius: 1em;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   margin: -5em auto 0 auto;
+}
+.impact-stat {
+   flex:1;
+   text-align: center;
+   max-width: 350px;
+}
+.circular-icon {
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto 1.5em auto;
+   position: relative;
+}
+
+.circular-icon::before {
+   content: '';
+   position: absolute;
+   width: 140px;
+   height: 140px;
+   border-radius: 50%;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   opacity: 0.3;
+}
+
+.circular-icon.pink {
+   background-color: #e89bc4
+}
+.circular-icon.pink::before {
+   background-color: #f3c4dd;
+}
+
+.circular-icon.green {
+   background-color: #d6f0c1;
+}
+.circular-icon.green::before {
+   background-color: #89ba5e;
+}
+.circular-icon.blue {
+background-color: #b6e0f7;
+}
+.circular-icon.blue::before {
+   background-color: #7cc7f3;
+}
+
+.circular-icon .icon {
+   font-size: 2.5em;
+   color: white;
+   z-index: 1;
+}
+.stat-content {
+   text-align: center;
+}
+
+.percentage {
+   font-size: 2.5em;
+   font-weight: 800;
+   color: #72b7dd;
+   font-family: 'Sen', 'Arial', sans-serif;
+   margin-bottom: 0.5em;
+}
+
+.description {
+   font-size: 1em;
+   color: #243522;
+   font-family: 'Sen', 'Arial', sans-serif;
+   line-height: 1.6em;
+   margin-bottom: 1em;
+   font-weight: 500;
+}
+
+.source {
+   font-size: 0.85em;
+   color: #667;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-style: italic;
+   font-weight: 500;
 }
 
 /* ADD MORE! */
