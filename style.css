@@ -48,9 +48,40 @@ h2 {
    padding-right: 50%;
 }
 
+h3 {
+   color: #8bb06d;
+   padding-left: 10%;
+   padding-top: 5%;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-weight: 800;
+   font-size: 2.4em;
+   text-align: left;
+   padding-right: 50%;
+}
+
+h4 {
+   color: #8bb06d;
+   padding-left: 10%;
+   padding-top: 5%;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-weight: 800;
+   font-size: 3em;
+   text-align: left;
+   padding-right: 20%;
+}
+
 .letter-blue {
    color: #72b7dd;
    text-decoration-line: underline;
+}
+
+.letter-blue2 {
+   color: #72b7dd;
+}
+
+.letter-blue2-underine {
+   color: #72b7dd;
+   text-decoration-line: underline
 }
 
 p1 {
@@ -81,23 +112,25 @@ nav {
    margin-top:0;
 }
 
+/* BUTTONS & TEXT FOR NAV */
 .nav-container {
    display: flex;
    align-items: right;
    justify-content: right;
+   padding-right: 5em;
    position: relative;
 }
 
-nav .nav-logo {
-   height: 3.7em;
+.nav-logo {
+   height: 18em;
    width: auto;
    position: absolute;
-   left: 10em;
-   top: 50%;
+   left: 7em;
+   top: 65%;
    transform: translateY(-50%);
 }
 
-ul{
+ul {
    list-style-type: none;
    overflow: hidden;
    text-align: center;
@@ -125,12 +158,111 @@ li a {
    transition: all 0.5s ease-in-out;
 }
 
-nav li a: hover {
+nav li a:hover {
    background-color: #a8c591;
    border: 2px solid #a8c591;
    color: #667f53;
 }
 
+
 /* STYLE BUTTONS */
+/* DONATE BUTTON*/
+nav li a[href*="donations"] {
+   color: white;
+   border: 2px solid white;
+   background-color: transparent;
+   padding: 0.8em 3em;
+   border-radius: 0.5em;
+   transition: all 0.3s ease;
+}
+
+nav li a[href*= "donations"]:hover {
+   background-color: white;
+   border: 2px solid white;
+   color: #85a26d;
+}
+
+/*VOLUNTEER TODAY BUTTON*/ 
+.cta-link {
+   padding-left: 8.4em;
+   padding-top: 2em;
+}
+
+.cta-link a {
+   color: #72b7dd;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-size: 1.2em;
+   font-weight: 700;
+   text-decoration: none;
+   border: 2px solid #72b7dd;
+   padding: 0.8em 1.5em;
+   border-radius: 0.5em;
+   transition: all 0.3s ease;
+   display: inline-block;
+}
+
+.cta-link a:hover {
+   background-color: #72b7dd;
+   color: white;
+}
+
+/*FOOTER*/ 
+footer {
+   background-color: #85a26d;
+   color: white;
+   padding: 1em 0 0 0;
+   margin-top: auto;
+   font-family: 'Sen', 'Arial', sans-serif;
+}
+
+.footer-content {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 0.5em;
+}
+
+.footer-section {
+   margin-bottom: 0.2em;
+}
+.footer-section ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   gap: 0em;
+   align-items: flex-end;
+   text-align: right;
+}
+
+.footer-section li {
+   margin-bottom: 0;
+}
+
+.footer-section a {
+   color: white;
+   text-decoration: none;
+ transition: color 0.3s ease;
+   font-size: 1.3em;
+}
+
+.footer-section a :hover {
+   color: #667f53;
+}
+
+.footer-bottom {
+   background-color: #85a26d;
+   text-align: right;
+   padding: 1em;
+   padding-right: 12em;
+   border-top: 1px solid #85a26d;
+}
+
+.footer-bottom p {
+   margin: 0;
+   font-size: 0.9em;
+}
 
 /* ADD MORE! */
