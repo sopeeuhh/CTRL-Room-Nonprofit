@@ -96,10 +96,10 @@ p1 {
    display: block;
    line-height: 2em;
 }
-/* STYLE IMAGES */
+/* STYLE IMAGES GIF ON FRONT PAGE */
 img {
    position: absolute;
-   top:40%;
+   top:35%;
    right:6em;
    transform: translateY(-45%);
    width: 37%;
@@ -229,7 +229,7 @@ footer {
 }
 .footer-section ul {
    list-style: none;
-   padding: 0;
+   padding: 0em;
    display: flex;
    flex-direction: column;
    gap: 0em;
@@ -248,7 +248,7 @@ footer {
    font-size: 1.3em;
 }
 
-.footer-section a :hover {
+.footer-section a:hover {
    color: #667f53;
 }
 
