@@ -72,14 +72,14 @@ h4 {
 
 h5 {
       color: #45602e;
-      padding-top: 2%;
-      padding-left: 0%;
+      padding-top: 1em;
+      padding-left: 2em;
       font-family: 'Sen', 'Arial', sans-serif;
       font-weight: 800;
       font-size: 1.4em;
       text-align: left;
       text-decoration-line: underline;
-      padding-bottom: 2em;
+      padding-bottom: 0em;
 }
 
 .letter-blue {
@@ -229,11 +229,26 @@ footer {
 
 .footer-content {
    display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   max-width: 1300px;
+   justify-content: space-between;
+   align-items: flex-start;
+   max-width: 1200px;
    margin: 0 auto;
    padding: 0 0.5em;
+}
+
+.footer-left {
+   display:flex;
+   flex-direction: row;
+   gap: 1.5em;
+   margin-top: 0.2em;
+}
+
+.footer-header {
+   color: white;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-size: 1.4em;
+   font-weight: 700;
+   text-align: left;
 }
 
 .footer-section {
