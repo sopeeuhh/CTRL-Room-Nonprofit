@@ -70,6 +70,17 @@ h4 {
    padding-right: 20%;
 }
 
+h5 {
+      color: #45602e;
+    padding-left: 8%;
+      font-family: 'Sen', 'Arial', sans-serif;
+      font-weight: 800;
+      font-size: 1.4em;
+      text-align: left;
+      text-decoration-line: underline;
+      padding-bottom: ;
+}
+
 .letter-blue {
    color: #72b7dd;
    text-decoration-line: underline;
@@ -219,7 +230,7 @@ footer {
    display: flex;
    justify-content: flex-end;
    align-items: center;
-   max-width: 1200px;
+   max-width: 1300px;
    margin: 0 auto;
    padding: 0 0.5em;
 }
@@ -238,7 +249,7 @@ footer {
 }
 
 .footer-section li {
-   margin-bottom: 0;
+   margin-bottom: -0.5em;
 }
 
 .footer-section a {
@@ -256,8 +267,8 @@ footer {
    background-color: #85a26d;
    text-align: right;
    padding: 1em;
-   padding-right: 12em;
-   border-top: 1px solid #85a26d;
+   padding-right: 10em;
+   border-top: 1px solid #ffffff;
 }
 
 .footer-bottom p {
