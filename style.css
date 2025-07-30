@@ -72,13 +72,14 @@ h4 {
 
 h5 {
       color: #45602e;
-    padding-left: 8%;
+      padding-top: 2%;
+      padding-left: 10%;
       font-family: 'Sen', 'Arial', sans-serif;
       font-weight: 800;
       font-size: 1.4em;
       text-align: left;
       text-decoration-line: underline;
-      padding-bottom: ;
+      padding-bottom: 2em;
 }
 
 .letter-blue {
@@ -90,9 +91,9 @@ h5 {
    color: #72b7dd;
 }
 
-.letter-blue2-underine {
+.letter-blue2-underline {
    color: #72b7dd;
-   text-decoration-line: underline
+   text-decoration-line: underline;
 }
 
 p1 {
