@@ -88,6 +88,10 @@ h4 {
    text-decoration-line: underline;
 }
 
+.letter-red {
+   color: red;
+}
+
 p1 {
    color: #243522;
    font-family: 'Sen', 'Arial', sans-serif;
@@ -170,13 +174,10 @@ nav li a:hover {
 }
 
 
-/* STYLE BUTTONS */
-
-.activity-btn
 /* DONATE BUTTON (NAV BAR)*/
 nav li a[href*="donations"] {
    color: white;
-   border: 2px solid white;
+   border: 2px solid #ffffff;
    background-color: transparent;
    padding: 0.8em 3em;
    border-radius: 0.5em;
@@ -184,9 +185,9 @@ nav li a[href*="donations"] {
 }
 
 nav li a[href*= "donations"]:hover {
-   background-color: white;
-   border: 2px solid white;
-   color: #85a26d;
+   background-color: #ffffff;
+   border: 2px solid #ffffff;
+   color: #ffffff;
 }
 
 /*VOLUNTEER TODAY BUTTON (FRONT PAGE)*/ 
@@ -230,6 +231,74 @@ footer {
    margin: 0 auto;
    padding: 0 0.5em;
 }
+
+.footer-left {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5em;
+   margin-top: 0.2em;
+   max-width: 400px;
+}
+
+.footer-signup {
+   margin-bottom: 1em;
+}
+.footer-signup h3 {
+   color: white;
+   font-family: 'Sans', 'Arial', sans-serif;
+   font-size: 1.3em;
+   font-weight: 700;
+   margin-bottom: 1em;
+   padding: 0;
+   text-align: left;
+}
+
+.footer-signup form {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+}
+
+.footer-email-input {
+   background-color: transparent;
+   border: 2px solid white;
+   border-radius: 0.3em;
+   padding: 0.8em;
+   color: white;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-size: 1em;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.footer-email-input::placeholder {
+   color: rgba(255,255,255,0.7);
+}
+
+.footer-email-input:focus {
+   outline: none;
+   background-color: rgba(255,255,255,0.1);
+}
+
+.footer-signup-btn {
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
+   padding: 0.8em 1.5em;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-size: 1em;
+   font-weight: 600;
+   border-radius: 0.3em;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+}
+.footer-signup-btn:hover {
+   background-color: white;
+   color: #85a26d
+}
+
 
 .footer-section {
    margin-bottom: 1em;
@@ -277,16 +346,18 @@ footer {
 /* WE NEED TO MAKE A DIFFERENCE SECTION !!FRONT/HOME PAGE!! */
 .impact-showcase {
    margin-top: 1.5em;
-   margin-bottom: -1em;
+   margin-bottom: 3em;
    padding: 0 5%;
    text-align: center;
 }
+
 .impact-showcase h2 {
    text-align: center;
    margin-bottom: 3em;
    padding-left: 0;
    padding-right: 0;
 }
+
 .impact-stats {
    display: flex;
    justify-content: center;
@@ -535,8 +606,8 @@ background-color: #b6e0f7;
 }
 /*MISSION ABOUT US PAGE*/
 .mission-section {
-   margin-top:3em;
-   margin-bottom: 3em;
+   margin-top: 2em;
+   margin-bottom: 2em;
 }
 .programs-section {
    margin-top: 8em;
