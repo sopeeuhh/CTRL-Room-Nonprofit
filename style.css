@@ -225,8 +225,8 @@ footer {
 
 .footer-content {
    display: flex;
-   justify-content: flex-end;
-   align-items: center;
+   justify-content: space-between;
+   align-items: flex-start;
    max-width: 1300px;
    margin: 0 auto;
    padding: 0 0.5em;
