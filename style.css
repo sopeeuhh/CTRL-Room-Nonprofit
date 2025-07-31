@@ -85,6 +85,15 @@ h5 {
    padding-right: 50%;
 }
 
+h6 {
+   color: #72b7dd;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-weight: 800;
+   font-size: 2.4em;
+   text-align: center;
+   padding-top: 5%;
+}
+
 
 .letter-blue {
    color: #72b7dd;
@@ -134,6 +143,8 @@ img {
    transform: translateY(-45%);
    width: 37%;
 }
+
+
 
 /* STYLE NAV BAR */
 nav {
@@ -775,7 +786,7 @@ background-color: #b6e0f7;
    display: inline-block;
 }
 
-activity-btn:hover {
+.activity-btn:hover {
    background-color: #e89bc4;
    color: white;
    transform: translateY(-2px);
