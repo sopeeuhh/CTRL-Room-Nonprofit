@@ -108,6 +108,10 @@ h5 {
    color: white;
    text-decoration-line: underline;
 }
+.letter-green-underline{
+   color: #8bb06d;
+   text-decoration-line: underline;
+}
 
 p1 {
    color: #243522;
@@ -426,16 +430,30 @@ footer {
 }
 
 .circular-icon.green {
-   background-color: #d6f0c1;
+   background-color: #fff5b8;
 }
 .circular-icon.green::before {
-   background-color: #89ba5e;
+   background-color: #fff199;
 }
 .circular-icon.blue {
 background-color: #b6e0f7;
 }
 .circular-icon.blue::before {
    background-color: #7cc7f3;
+}
+
+.circular-icon.purple {
+   background-color: #f0c674;
+}
+
+.circular-icon.purple::before {
+   background-color: #f5d899;
+}
+.circular-icon.orange {
+   background-color: #e6d5fb;
+}
+.circular-icon.orange::before {
+   background-color: #ecc2ff;
 }
 
 .circular-icon .icon {
@@ -762,4 +780,5 @@ activity-btn:hover {
    color: white;
    transform: translateY(-2px);
    box-shadow: 0 4px 12px rgba(114, 183, 221, 0.3);
+   
 }
