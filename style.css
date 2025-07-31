@@ -793,3 +793,65 @@ background-color: #b6e0f7;
    box-shadow: 0 4px 12px rgba(114, 183, 221, 0.3);
    
 }
+
+/*HANDWRITTEN CARDS PAGE*/ 
+.handwritten-card-content {
+   display: flex;
+   align-items: flex-start;
+   gap: 3em;
+   max-width: 1200px;
+   margin: 3em auto;
+   padding: 0 2em;
+}
+.handwritten-card-img {
+   position: static;
+   width: 400px;
+   height: auto;
+   border-radius: 1em;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   transform: none;
+   top: auto;
+   right: auto;
+}
+
+.instructons-section {
+   flex:1;
+   max-width: 600px;
+}
+
+.instructions-section h4 {
+   margin-bottom: 1em;
+   padding: 0;
+   font-size: 2em;
+}
+
+.instructions-section p1 {
+   padding:0;
+   margin-bottom: 2em;
+   display: block;
+}
+
+.instruction-steps {
+   margin-top: 2em;
+}
+
+.step {
+   margin-bottom: 2em;
+   padding: 1.5em;
+   background: rgba(114, 183, 221, 0.1);
+   border-radius: 0.8em;
+   border-left: 4px solid #72b7dd;
+}
+
+.step h5 {
+   color: #72b7dd;
+   margin: 0 0 0.5em 0;
+   padding:0;
+   font-size: 1.3em;
+}
+.step p1 {
+   padding: 0;
+   margin: 0;
+   font-size: 1em;
+   line-height: 1.5em;
+}
