@@ -812,7 +812,7 @@ background-color: #b6e0f7;
 .handwritten-card-image-container {
    display: flex;
   justify-content: center;
-   margin: 3em auto;
+   margin: 2em auto 1.5em auto;
 }
 
 .handwritten-card-image-centered {
@@ -824,13 +824,12 @@ background-color: #b6e0f7;
    transform: none;
    top: auto;
    right: auto;
-   
 }
 
 .instructions-section {
  max-width: 800px;
    padding: 0 2em;
-   margin: 3em auto;
+   margin: 1em auto 2em auto;
    text-align: center;
 }
 
@@ -876,3 +875,63 @@ background-color: #b6e0f7;
    font-size: 1em;
    line-height: 1.5em;
 }
+
+/* SUBMISSION SECTION*/ 
+.submission-section {
+   margin-top: 4em;
+   margin-bottom: 3em;
+   padding: 3em;
+   background-color: rgba(232, 155, 196, 0.1);
+   border-radius: 1em;
+   text-align: center;
+   margin-left: 5%;
+   margin-right: 5%;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.submission-section h3 {
+   color: #8bb06d;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-size: 2.2em;
+   font-weight: 800;
+   margin-bottom: 1em;
+   padding: 0;
+   text-align: center;
+}
+
+.submission-section p1 {
+   padding: 0;
+   margin-bottom: 2em;
+   text-align: center;
+   font-size: 1.1em;
+}
+
+.submission-cta {
+   margin-top: 2em;
+}
+
+.submission-btn {
+   color: white;
+   background-color: #e89bc4;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-size: 1.2em;
+   font-weight: 700;
+   text-decoration: none;
+   border: 2px solid #e89bc4;
+   padding: 1em 2.5em;
+   border-radius: 0.5em;
+   transition: all 0.3s ease;
+   display: inline-block;
+}
+
+.submission-btn:hover {
+   background-color: #f5c2dd;
+   border-color: #f5c2dd;
+   transform: translateY(-2px);
+   box-shadow: 0 4px 12px rgba(232, 155, 196, 0.3);
+}
+
+/* RESPONSIVE STUFF*//* RESPONSIVE STUFF*//* RESPONSIVE STUFF*//* RESPONSIVE STUFF*//* RESPONSIVE STUFF*//* RESPONSIVE STUFF*/
+
+
+
