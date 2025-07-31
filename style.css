@@ -73,6 +73,18 @@ h4 {
    padding-right: 30%;
 }
 
+h5 {
+   color: #8bb06d;
+   padding-left: -1em;
+   margin-top: -20%;
+   padding-bottom: 10%;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-weight: 800;
+   font-size: 1.5em;
+   text-align: left;
+   padding-right: 50%;
+}
+
 
 .letter-blue {
    color: #72b7dd;
@@ -90,6 +102,11 @@ h4 {
 
 .letter-red {
    color: red;
+}
+
+.letter-white-underline {
+   color: white;
+   text-decoration-line: underline;
 }
 
 p1 {
@@ -187,7 +204,7 @@ nav li a[href*="donations"] {
 nav li a[href*= "donations"]:hover {
    background-color: #ffffff;
    border: 2px solid #ffffff;
-   color: #ffffff;
+   color: #85a26d;
 }
 
 /*VOLUNTEER TODAY BUTTON (FRONT PAGE)*/ 
@@ -241,7 +258,9 @@ footer {
 }
 
 .footer-signup {
+   margin-top: 4.5em;
    margin-bottom: 1em;
+   margin-left: 4em;
 }
 .footer-signup h3 {
    color: white;
@@ -261,13 +280,14 @@ footer {
 
 .footer-email-input {
    background-color: transparent;
-   border: 2px solid white;
-   border-radius: 0.3em;
-   padding: 0.8em;
+   border: none;
+   border-bottom: 2px solid white;
+   border-radius: 0;
+   padding: 0.8em 0;
    color: white;
    font-family: 'Sen', 'Arial', sans-serif;
    font-size: 1em;
-   width: 100%;
+   width: 200%;
    box-sizing: border-box;
 }
 
@@ -293,6 +313,7 @@ footer {
    transition: all 0.3s ease;
    text-transform: uppercase;
    letter-spacing: 0.5px;
+   margin-top: 1em;
 }
 .footer-signup-btn:hover {
    background-color: white;
@@ -649,4 +670,96 @@ background-color: #b6e0f7;
    background-color:#8bb06d;
    margin: 0 1em;
 }
-/* ADD MORE! */
+
+/* VOLUNTEER SECTION*/  
+.volunteer-activities {
+   margin-top: 4em;
+   margin-bottom: 3em;
+   padding: 0 5%;
+}
+
+.volunteer-activities h2 {
+   text-align: center;
+   margin-bottom: 3em;
+   padding-left: 0;
+   padding-right: 0;
+}
+ .activities-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+.activity-item {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   background-color: rgba(114, 183, 221, 0.1);
+   padding: 2.5em;
+   border-radius: 1em;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   min-height: 400px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-item:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+.activity-icon {
+   margin-bottom: 1.5em;
+}
+
+.activity-content {
+   flex:1;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.activity-content h4 {
+   color: #8bb06d;
+   font-size: 1.6em;
+   font-weight: 700;
+   margin-bottom: 1em;
+   padding: 0;
+   text-align: center;
+}
+
+.activity-content p1 {
+   font-size: 1em;
+   padding: 0;
+   line-height: 1.6em;
+   text-align: center;
+   display: block;
+   margin-bottom: 1.5em;
+   flex-grow:1;
+}
+
+.activity-cta {
+   margin-top: 1.5em;
+}
+
+.activity-btn {
+   color: #e89bc4;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-size: 1.1em;
+   font-weight: 700;
+   text-decoration: none;
+   border: 2px solid #e89bc4;
+   padding: 0.8em 1.8em;
+   border-radius: 0.5em;
+   transition: all 0.3s ease;
+   display: inline-block;
+}
+
+activity-btn:hover {
+   background-color: #e89bc4;
+   color: white;
+   transform: translateY(-2px);
+   box-shadow: 0 4px 12px rgba(114, 183, 221, 0.3);
+}
