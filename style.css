@@ -135,6 +135,20 @@ p1 {
    line-height: 2em;
    padding-bottom: 0.6em;
 }
+
+p2 {
+   color: #243522;
+   font-family: 'Sen', 'Arial', sans-serif;
+   font-size: 1.1em;
+   padding-left: 6em;
+   padding-right: 40em;
+   padding-top: -2%;
+   text-align: left;
+   font-weight: 550;
+   display: block;
+   line-height: 2em;
+   padding-bottom: 0.6em;
+}
 /* STYLE IMAGES GIF ON FRONT PAGE */
 img {
    position: absolute;
@@ -795,48 +809,54 @@ background-color: #b6e0f7;
 }
 
 /*HANDWRITTEN CARDS PAGE*/ 
-.handwritten-card-content {
+.handwritten-card-image-container {
    display: flex;
-   align-items: flex-start;
-   gap: 3em;
-   max-width: 1200px;
+  justify-content: center;
    margin: 3em auto;
-   padding: 0 2em;
 }
-.handwritten-card-img {
+
+.handwritten-card-image-centered {
    position: static;
-   width: 400px;
+   width: 500px;
    height: auto;
    border-radius: 1em;
    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
    transform: none;
    top: auto;
    right: auto;
+   
 }
 
-.instructons-section {
-   flex:1;
-   max-width: 600px;
+.instructions-section {
+ max-width: 800px;
+   padding: 0 2em;
+   margin: 3em auto;
+   text-align: center;
 }
 
 .instructions-section h4 {
    margin-bottom: 1em;
    padding: 0;
    font-size: 2em;
+   text-align: center;
 }
 
-.instructions-section p1 {
-   padding:0;
-   margin-bottom: 2em;
+.instructions-section p2 {
+   padding: 0;
+   margin-bottom: 1em;
    display: block;
+   text-align: center;
 }
 
 .instruction-steps {
    margin-top: 2em;
+   display: flex;
+   flex-direction: column;
+   gap: 2em;
 }
 
 .step {
-   margin-bottom: 2em;
+   margin-bottom: 0;
    padding: 1.5em;
    background: rgba(114, 183, 221, 0.1);
    border-radius: 0.8em;
@@ -846,9 +866,10 @@ background-color: #b6e0f7;
 .step h5 {
    color: #72b7dd;
    margin: 0 0 0.5em 0;
-   padding:0;
+   padding: 0;
    font-size: 1.3em;
 }
+
 .step p1 {
    padding: 0;
    margin: 0;
