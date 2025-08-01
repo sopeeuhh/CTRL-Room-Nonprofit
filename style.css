@@ -1046,6 +1046,7 @@ background-color: #b6e0f7;
       top: auto;
       right: auto;
    }
+   
    .hero-section {
       flex-direction: column;
       text-align: center;
@@ -1192,10 +1193,10 @@ background-color: #b6e0f7;
       height: 4em;
       margin-bottom: 0.1em;
    }
-   .nav li {
-      font-size: 0.9em;
+   nav li {
+      margin: 0.2em;
    }
-   .nav li a {
+   nav li a {
       font-size: 0.9em;
       padding: 0.4em 0.6em;
    }
