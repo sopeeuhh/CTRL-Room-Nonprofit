@@ -19,6 +19,20 @@ body{
    flex-direction: column;
 }
 
+/*RESPONSIVE CONTAINER*/ 
+.content-container{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 1em;
+}
+
+.hero-section {
+   display: flex; 
+   align-items: center;
+   gap: 2em;
+   flex-wrap: wrap;
+}
+
 /*MAIN*/
 main {
    flex: 1;
@@ -933,5 +947,243 @@ background-color: #b6e0f7;
 
 /* RESPONSIVE STUFF*//* RESPONSIVE STUFF*//* RESPONSIVE STUFF*//* RESPONSIVE STUFF*//* RESPONSIVE STUFF*//* RESPONSIVE STUFF*/
 
+/* TABLET RESPONSIVE DESIGN*/ 
+@media screen and (max-width: 1024px) {
+   .nav-container {
+      padding-right: 2em;
+   }
+   .nav-logo {
+      left: 2em;
+      height: 12em;
+   }
+   h1, h2, h3 {
+      padding-left: 3%;
+      padding-right: 10%;
+      font-size: 2em;
+   }
+   p1, p2 {
+      padding-left: 3em;
+      padding-right: 10em;
+   }
+   img {
+      width: 45%;
+      right: 2em;
+   }
+   .impact-stats {
+      gap: 2em;
+      padding: 2em;
+   }
+   .activities-container {
+      grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5em;
+   }
+   .programs-container {
+      flex-direction: column;
+      gap: 2em;
+   }
+   .vertical-divider {
+      display: none;
+   }
+}
 
+/* MOBILE RESPONSIVE DESIGN*/ 
+
+@media screen and (max-width: 768px) {
+   .nav-container {
+      flex-direction: column;
+      padding: 0;
+      text-align: center;
+   }
+   .nav-logo {
+      position: relative;
+      left: auto;
+      top:auto;
+      transform: none;
+      height: 10em;
+      margin-bottom: 0em;
+   }
+   nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5em;
+   }
+   nav li {
+      margin: 0.2em;
+   }
+   nav li a {
+      padding: 0.5em 0.8em;
+      font-size: 1em;
+      margin:0;
+   }
+   nav li a[href*="donations"] {
+      padding: 0.5em 1em;
+   }
+   h1, h2, h3 {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 2%;
+      font-size: 1.8em;
+      text-align: center;
+   }
+   h6 {
+      font-size: 2em;
+      padding-top: 3%;
+   }
+   p1, p2 {
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      font-size: 1em;
+      text-align: center;
+   }
+   img {
+      position: static;
+      width: 90%;
+      margin: 2em auto;
+      display: block;
+      transform: none;
+      top: auto;
+      right: auto;
+   }
+   .hero-section {
+      flex-direction: column;
+      text-align: center;
+   }
+   .hero-text {
+      order:1;
+   }
+   .hero-gif {
+      order: 2;
+      margin: 2em auto;
+   }
+   .cta-link {
+      padding-left: 0;
+      text-align: center;
+      margin: 2em 0;
+   }
+   .impact-stats {
+      flex-direction: column;
+      gap: 2em;
+      padding: 1.5em;
+      margin: 2em auto;
+   }
+   .circular-icon {
+      width: 80px;
+      height: 80px;
+   }
+   .circular-icon::before {
+      width: 100px;
+      height: 100px;
+   }
+   .circular-icon .icon {
+      font-size: 2em;
+   }
+   .percentage {
+      font-size: 2em;
+   }
+   .contact-page-layout {
+      flex-direction: column;
+      gap: 2em;
+   }
+   .contact-form {
+      padding: 1.5em;
+   }
+   .footer-content {
+      flex-direction: column;
+      gap: 2em;
+      text-align: center;
+   }
+   .footer-signup {
+      margin: 1em;
+   }
+   .footer-email-input {
+      width: 100%;
+   }
+   footer-section ul {
+      align-items: center;
+   }
+   .footer-bottom {
+      padding-right: 1em;
+      text-align: center;
+   }
+   .activities-container {
+      grid-template-columns: 1fr;
+      gap: 1.5em;
+   }
+   .activity-item {
+      padding: 1.5em;
+      min-height: auto;
+   }
+   .stats-container {
+      flex-direction: column;
+      gap: 2em;
+   }
+   .stat-number {
+      font-size: 3em;
+   }
+   .handwritten-card-image-centered {
+      width: 90%;
+      max-width: 400px;
+   }
+   .instructions-section {
+      padding: 0 1em;
+      margin: 1em auto;
+   }
+   .instructions-section h4 {
+      font-size: 1.5em;
+   }
+   .step {
+      padding: 1em;
+   }
+   .submission-section h3 {
+      font-size: 1.8em;
+   }
+   .submission-btn {
+      padding: 0.8em 1.5em;
+      font-size: 1em;
+   }
+}
+
+/*SMALL MOBILE RESPONSIVE DESIGN*/
+@media screen and (max-width: 480px) {
+   h1, h2, h3 {
+      font-size: 1.5em;
+   }
+   h6 {
+      font-size: 1.8em;
+   }
+   .nav-logo {
+      position: relative;
+      left: auto;
+      top: auto;
+      transform: none;
+      height: 4em;
+      margin-bottom: 0.1em;
+   }
+   nav li a {
+      font-size: 0.9em;
+      padding: 0.4em 0.6em;
+   }
+   .impact-stats {
+      padding: 1em;
+   }
+   .activity-item {
+      padding: 1em;
+   }
+   .contact-form {
+      padding:1em
+   }
+   .footer-signup {
+      margin: 0.5em;
+   }
+   .stat-number {
+      font-size: 2.5em;
+   }
+   .handwritten-card-image-centered {
+      width: 95%;
+   }
+   .submission-section {
+      padding: 1.5em 0.5em;
+   }
+}
 
