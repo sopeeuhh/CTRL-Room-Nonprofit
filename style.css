@@ -1093,28 +1093,44 @@ background-color: #b6e0f7;
       flex-direction: column;
       gap: 2em;
       text-align: center;
+      padding:  0 1em;
    }
    .footer-signup {
-      margin: 1em auto;
+      margin: 1.5em auto;
       max-width: 350px;
+   }
+   .footer-signup h5 {
+      font-size: 1.2em;
+      margin-bottom: 1em;
+      text-align: center;
    }
    .footer-email-input {
       width: 100%;
-      max-width: 300px;
+      max-width: 280px;
+      margin: 0 auto;
+      display: block;
+   }
+   .footer-section {
+      margin: 1em 0;
    }
    .footer-section ul {
       align-items: center;
       text-align: center;
+      flex-direction: column;
+      gap: 0.8em
    }
    .footer-section li {
-      margin-bottom: 0.5em
+      margin-bottom: 0.5em;
    }
    .footer-section a {
-      font-size: 1.2em
+      font-size: 1.2em;
    }
    .footer-bottom {
-      padding: 1em;
+      padding: 1.5em 1em;
       text-align: center;
+   }
+   .footer-bottom p {
+      font-size: 0.9em;
    }
    .activities-container {
       grid-template-columns: 1fr;
