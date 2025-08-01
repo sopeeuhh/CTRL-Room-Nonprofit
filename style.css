@@ -136,6 +136,10 @@ h6 {
    text-decoration-line: underline;
 }
 
+.letter-black-underline {
+   color: black;
+   text-decoration-line: underline;
+}
 p1 {
    color: #243522;
    font-family: 'Sen', 'Arial', sans-serif;
@@ -163,6 +167,8 @@ p2 {
    line-height: 2em;
    padding-bottom: 0.6em;
 }
+
+
 /* STYLE IMAGES GIF ON FRONT PAGE */
 img {
    position: absolute;
