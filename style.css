@@ -1095,16 +1095,25 @@ background-color: #b6e0f7;
       text-align: center;
    }
    .footer-signup {
-      margin: 1em;
+      margin: 1em auto;
+      max-width: 350px;
    }
    .footer-email-input {
       width: 100%;
+      max-width: 300px;
    }
-   footer-section ul {
+   .footer-section ul {
       align-items: center;
+      text-align: center;
+   }
+   .footer-section li {
+      margin-bottom: 0.5em
+   }
+   .footer-section a {
+      font-size: 1.2em
    }
    .footer-bottom {
-      padding-right: 1em;
+      padding: 1em;
       text-align: center;
    }
    .activities-container {
@@ -1167,7 +1176,10 @@ background-color: #b6e0f7;
       height: 4em;
       margin-bottom: 0.1em;
    }
-   nav li a {
+   .nav li {
+      font-size: 0.9em;
+   }
+   .nav li a {
       font-size: 0.9em;
       padding: 0.4em 0.6em;
    }
@@ -1181,7 +1193,22 @@ background-color: #b6e0f7;
       padding:1em
    }
    .footer-signup {
-      margin: 0.5em;
+      margin: 0.5em auto;
+      max-width: 280px;
+   }
+   .footer-section ul {
+      align-items: center;
+      text-align: center;
+   }
+   .footer-section li {
+      margin-bottom: 0.3em;
+   }
+   .footer-section a {
+      font-size: 1em;
+   } 
+   .footer-bottom {
+      padding: 0.8em;
+      text-align: center;
    }
    .stat-number {
       font-size: 2.5em;
