@@ -986,18 +986,6 @@ background-color: #b6e0f7;
    }
 }
 
-.footer-content {
-   flex-direction: column;
-   gap: 1.5em;
-   text-align: center;
-}
-.footer-signup {
-   margin: 1.5em auto;
-   max-width: 350px;
-}
-.footer-email-input {
-   max-width: 300px;
-}
 
 /* MOBILE RESPONSIVE DESIGN*/ 
 
@@ -1008,14 +996,12 @@ background-color: #b6e0f7;
       text-align: center;
    }
    .nav-logo {
-      position: static;
-     height: 12em;
-      margin: 1em 0;
+      position: relative;
+      left: auto;
+      top:auto;
       transform: none;
-   }
-
-   .nav-container {
-      min-height: auto;
+      height: 10em;
+      margin-bottom: 0em;
    }
    nav ul {
       display: flex;
@@ -1109,21 +1095,13 @@ background-color: #b6e0f7;
       text-align: center;
    }
    .footer-signup {
-      margin: 1em auto;
-      max-width: 300px;
+      margin: 1em;
    }
    .footer-email-input {
       width: 100%;
-      max-width: 250px;
    }
-   .footer-section ul {
+   footer-section ul {
       align-items: center;
-   }
-   .footer-section li {
-      margin-bottom: 0.5em;
-   }
-   .footer-section a {
-      font-size: 1.1em;
    }
    .footer-bottom {
       padding-right: 1em;
@@ -1175,9 +1153,19 @@ background-color: #b6e0f7;
    h6 {
       font-size: 1.8em;
    }
+   .nav-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.1em;
+      padding: 0.1em 0;
+   }
    .nav-logo {
-      height: 8em;
-      margin: 0.5em 0;
+      position: relative;
+      left: auto;
+      top: auto;
+      transform: none;
+      height: 4em;
+      margin-bottom: 0.1em;
    }
    nav li a {
       font-size: 0.9em;
